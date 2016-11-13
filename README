@@ -1,8 +1,8 @@
-#kPosts
-##Description
+# kPosts
+## Description
 A Wordpress PHP framework used to quickly create custom post types.
 
-##Example Usage
+## Example Usage
 $recipes_post_type = new KP_Custom_Post_Type( "Recipes" );
 
 $recipes_post_type->add_taxonomies( 
