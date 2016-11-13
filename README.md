@@ -12,6 +12,7 @@ $recipes_post_type->add_taxonomies(
 );
 
 $ingredients_metabox = new KP_Metabox( "Ingredients" );
+
 $ingredients_metabox->add_field( "Quantity", 'number' );
 $ingredients_metabox->add_field( "Ingredient", 'text' );
 
