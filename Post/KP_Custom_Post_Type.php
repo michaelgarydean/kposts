@@ -24,6 +24,12 @@
      * @see Csnqc_Media_Post_Type
      * @see Csnqc_Taxonomy
     */
+
+    namespace KP\Post;
+    
+    use KP;
+    use KP\Post;
+    
     class KP_Custom_Post_Type extends KP_Post_Type {
         /**
          * @var mixed[] $args               Arguments for the register_post_type() Wordpress function.

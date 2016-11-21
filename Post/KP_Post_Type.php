@@ -1,4 +1,8 @@
 <?php
+
+    namespace KP\Post;
+    use KP\KP_Entity;
+    
     abstract class KP_Post_Type extends KP_Entity {
         protected $taxonomies;
         

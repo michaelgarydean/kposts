@@ -13,6 +13,9 @@
      * @package csnqc-theme-options
      * @todo Properly implement getters and setters for all class variables.
      */
+
+    namespace KP;
+    
     abstract class KP_Entity implements KP {
         /**
          * @var String $machine_name    The name used to store the entity in the database
